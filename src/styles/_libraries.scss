@@ -1,0 +1,401 @@
+@import "variables";
+
+@media (max-width: 1024px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+//CHECKBOX//
+.mat-checkbox-checked.mat-accent .mat-checkbox-background,
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-checkbox-ripple .mat-ripple-element {
+  background-color: $blue !important;
+}
+
+//--------//
+
+//RADIO BUTTON//
+mat-radio-button {
+  margin-bottom: 5px;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+  background-color: $blue !important;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: $blue !important;
+}
+
+//--------//
+
+//TABLE//
+table {
+  width: 100%;
+}
+
+.mat-elevation-z8 {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 10px 10px 0px 0px;
+  overflow: auto;
+  padding: none !important;
+}
+
+.mat-header-row {
+  background-color: $blue-middle;
+  height: 45px !important;
+}
+
+.mat-header-cell {
+  color: $blue-dark;
+  font-size: 14px;
+  font-family: "KTBFastBold";
+  text-align: center !important;
+}
+
+.mat-row {
+  height: 45px !important;
+}
+
+.mat-cell {
+  color: $gray-dark;
+  font-size: 14px;
+  font-family: "KTBFastLight";
+}
+
+.mat-option-text:hover {
+  color: $blue;
+}
+
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: $blue;
+}
+
+.mat-focused {
+  color: $blue;
+}
+
+.no-results {
+  color: $gray-dark;
+  font-size: 14px;
+  font-family: "KTBFastLight";
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid $gray;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+tr.mat-row:hover {
+  cursor: pointer;
+  background-color: $blue-light;
+}
+
+//--------//
+
+//DATE PICKER//
+.mat-datepicker-input {
+  background: $white !important;
+}
+
+.date-picker-box {
+  position: relative !important;
+  width: 100%;
+
+  mat-datepicker-toggle.mat-datepicker-toggle {
+    position: absolute;
+    right: 1px;
+    top: -5px;
+    color: $black;
+    z-index: 10;
+  }
+
+  .form-control {
+    cursor: pointer;
+    padding-left: 10px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "KTBFastLight";
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+
+    &:focus {
+      border-color: #ced4da;
+      box-shadow: none;
+    }
+  }
+}
+
+.mat-input-element {
+  box-sizing: inherit !important;
+}
+
+.date-picker-input {
+  background-color: white !important;
+}
+
+.mat-calendar-body-selected {
+  background-color: $blue;
+}
+
+td.mat-calendar-body-cell:hover {
+  background-color: transparent;
+}
+
+.mat-calendar-body-cell-content,
+.mat-calendar-body-cell-preview {
+  &.mat-focus-indicator {
+    &:hover {
+      background-color: $blue-light !important;
+    }
+
+    .mat-calendar-body-today {
+      background-color: $blue-light !important;
+    }
+  }
+
+  &.mat-calendar-body-selected {
+    background-color: $blue;
+
+    &:hover {
+      background-color: $blue-light !important;
+      color: $black;
+    }
+  }
+}
+
+.mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(
+    .mat-calendar-body-comparison-identical
+  ) {
+  background-color: $blue-light !important;
+}
+
+.mat-calendar-body-today:not(.mat-calendar-body-selected):not(
+    .mat-calendar-body-comparison-identical
+  ) {
+  background-color: $blue-light !important;
+}
+
+.mat-form-field.mat-focused {
+  .mat-form-field-label {
+    color: $blue;
+  }
+
+  .mat-form-field-ripple {
+    background-color: $blue !important;
+  }
+
+  .mat-form-field-required-marker {
+    color: $blue;
+  }
+
+  .mat-input-element {
+    color: $blue;
+  }
+}
+
+//TOAST//
+.toast-success {
+  font-family: "KTBFastRegular" !important;
+  font-size: 14px !important;
+}
+
+.toast-warning {
+  font-family: "KTBFastRegular" !important;
+  font-size: 14px !important;
+  background-color: $yellow;
+}
+
+.toast-error {
+  font-family: "KTBFastRegular" !important;
+  font-size: 14px !important;
+}
+
+//-------------//
+
+//DIALOG//
+.mat-dialog-container {
+  border-radius: 20px !important;
+}
+
+.mat-dialog-container {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+dialog-overview-example-dialog.ng-star-inserted > div {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.mat-dialog-actions {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.mat-dialog-title {
+  margin-top: 15px !important;
+}
+
+//-----//
+
+//LOADING//
+.mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: $blue-dark !important;
+}
+
+.dark-backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+//-------------//
+
+//TAB MENU//
+.mat-ink-bar {
+  border-bottom: 2px solid #3ab3d5 !important;
+}
+
+.mat-tab-nav-bar,
+.mat-tab-header {
+  border-bottom: 1px solid $blue;
+  padding: 0px 40px;
+}
+
+.mat-tab-label {
+  font-family: "KTBFastLight";
+  color: $blue-dark;
+  padding: 0 0px;
+  background: $blue-light;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid $blue-middle;
+  height: 30px !important;
+  width: 100px !important;
+  min-width: 80px !important;
+  opacity: unset !important;
+
+  &:hover {
+    background: $blue-middle;
+    color: $white;
+  }
+}
+
+.mat-tab-label .invalid {
+  font-family: "KTBFastLight";
+  color: $blue-dark;
+  padding: 0 0px;
+  background: $red-middle;
+  color: $white;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #cd3728 !important;
+  height: 30px !important;
+  width: 100px !important;
+  min-width: 80px !important;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  opacity: unset !important;
+
+  &:hover {
+    background: #cd3728;
+  }
+}
+
+.mat-tab-label.mat-tab-disabled {
+  cursor: not-allowed !important;
+  background-color: $gray-soft;
+  &:hover {
+    color: rgba(0, 0, 0, 0.38);
+  }
+}
+
+//-------------//
+
+// RADIO BUTTON //
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+  background-color: $blue-dark !important;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: $blue-dark !important;
+
+  &:active {
+    border-color: $blue-dark !important;
+  }
+}
+
+//-------------//
+
+.p-treeselect:not(.p-disabled):hover {
+  border-color: #ced4da;
+}
+
+.p-treeselect:not(.p-disabled).p-focus {
+  outline: o none;
+  outline-offset: 0;
+  box-shadow: none;
+  border-color: $blue;
+}
+
+.p-treeselect .p-treeselect-label {
+  font-family: "KTBFastLight";
+  font-size: 14px;
+}
+
+.p-treeselect {
+  width: 100%;
+  min-width: 160px;
+  max-width: 160px;
+}
+
+:host ::ng-deep.p-treeselect {
+  //dropdown box
+  height: 35px;
+  align-items: center;
+  margin-top: -5px !important;
+  padding: 0px !important;
+
+  .p-treenode-content {
+    //dropdown select
+    height: 30px;
+    align-items: center;
+    width: max-content;
+  }
+}
+
+.mat-body p,
+.mat-body-1 p,
+.mat-typography .mat-body p,
+.mat-typography .mat-body-1 p,
+.mat-typography p {
+  margin: 0 0 0px;
+}
+
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.mat-select-panel {
+  max-width: 500px !important;
+}

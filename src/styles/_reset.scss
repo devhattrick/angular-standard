@@ -1,0 +1,7 @@
+//For reset css
+* {
+  &:active,
+  :focus {
+    outline: none !important;
+  }
+}
