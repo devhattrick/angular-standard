@@ -4,8 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Angular Material UI
 [Angular Material UI](https://v16.material.angular.io/) version 16.2.12
+
 ## PRIMENG UI
-[PRIMENG UI] (https://v16.material.angular.io/](https://www.primefaces.org/primeng-v16-lts/) version 16
+[PRIMENG UI](https://www.primefaces.org/primeng-v16-lts/) version 16
 
 ## Development server
 
