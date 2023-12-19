@@ -8,8 +8,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## PRIMENG UI
 [PRIMENG UI](https://www.primefaces.org/primeng-v16-lts/) version 16
 
-## Development server
+# How to start project
+## Step 1
+Run `npm install` for install node_modules
 
+## Step 2 start project server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
