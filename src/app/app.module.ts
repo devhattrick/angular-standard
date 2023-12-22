@@ -13,7 +13,7 @@ import { LoginLayoutComponent } from './layout/login-layout/login-layout.compone
 import { NavComponent } from './layout/nav/nav.component';
 import { SideNavComponent } from './layout/side-nav/side-nav.component';
 import { SharedDirective } from './shared/directives/shared.directive';
-
+import {ToastrModule} from 'ngx-toastr'
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,8 @@ import { SharedDirective } from './shared/directives/shared.directive';
     MatIconModule,
     MatButtonModule,
     MatBadgeModule,
-    MatTooltipModule
+    MatTooltipModule,
+    ToastrModule.forRoot(),
 
   ],
   providers: [],

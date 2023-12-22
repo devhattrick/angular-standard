@@ -8,6 +8,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## PRIMENG UI
 [PRIMENG UI](https://www.primefaces.org/primeng-v16-lts/) version 16
 
+## VSCODE Extensions
+Auto Close Tag
+Auto Rename Tag
+Better Comments
+Highlight Matching Tag
+Prettier - Code formatter
+SVG Viewer
+
 # How to start project
 ## Step 1
 Run `npm install` for install node_modules
@@ -17,7 +25,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component.
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
