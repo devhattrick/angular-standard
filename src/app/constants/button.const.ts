@@ -10,6 +10,4 @@ export const buttonMessage: Record<string, string> = Object.freeze({
   CONTINUE: "ดำเนินการต่อ",
   BACK_MAIN_MENU: "กลับหน้าหลัก",
   BACK: "ย้อนกลับ",
-  DELETE: "ลบ",
-  MODIFY: "กลับไปแก้ไข"
 });

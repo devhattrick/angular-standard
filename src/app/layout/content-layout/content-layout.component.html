@@ -5,8 +5,12 @@
   </section>
   <!-- *Head bar -->
   <!-- main content -->
-  <section>
-    <app-side-nav></app-side-nav>
-    <router-outlet></router-outlet>
+  <section class="layout">
+    <div class="sidebar">
+      <app-side-nav></app-side-nav>
+    </div>
+    <div class="content-body">
+      <router-outlet></router-outlet>
+    </div>
   </section>
 </div>
