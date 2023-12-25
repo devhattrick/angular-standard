@@ -22,6 +22,10 @@ const routes: Routes = [
       // { path: 'settings', component: SettingsComponent },
     ]
   },
+  {
+    path: 'demo',
+    component: DemoComponent
+},
 
   { path: '**', redirectTo: 'login', pathMatch: 'full' }
 ];
